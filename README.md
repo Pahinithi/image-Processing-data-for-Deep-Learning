@@ -1,7 +1,3 @@
-Here's an updated version of the README file, including the file structure and a placeholder for a demo video link:
-
----
-
 # Image Processing Web Application
 
 This project is a web-based image processing application built using Flask, OpenCV, and Bootstrap. The application allows users to upload an image, which is then processed to generate grayscale, inverted, blurred, and pencil sketch versions of the image. The processed images are displayed on a results page.
@@ -17,8 +13,8 @@ This project is a web-based image processing application built using Flask, Open
 
 ## Demo
 
-[Watch the Demo Video](#)  
-*(Replace `#` with the actual link to your demo video.)*
+[Watch the Demo Video](https://drive.google.com/file/d/1sJuLooFsAdI_eLSEJyceBINsoY8Y2nEq/view?usp=share_link)  
+
 
 ## File Structure
 
@@ -104,6 +100,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License.
 
----
+<img width="1728" alt="Screenshot 2024-08-20 at 09 08 47" src="https://github.com/user-attachments/assets/b3a16f75-26cd-4e59-a460-3ae0c991d530">
 
-Don't forget to replace the demo video link with the actual URL.
+
+<img width="1728" alt="Screenshot 2024-08-20 at 09 09 18" src="https://github.com/user-attachments/assets/dd43b04f-fa58-4feb-8a75-cf3c86085c91">
+
