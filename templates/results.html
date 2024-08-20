@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processed Images</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Image Processor</a>
+    </nav>
+    <div class="container mt-5">
+        <div class="text-center mb-4">
+            <h1>Processed Images</h1>
+            <p class="lead">Here are the results of the image processing.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="{{ url_for('static', filename='processed/original.jpg') }}" class="card-img-top" alt="Original Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Original Image</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="{{ url_for('static', filename='processed/grayscale.jpg') }}" class="card-img-top" alt="Grayscale Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Grayscale Image</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="{{ url_for('static', filename='processed/inverted.jpg') }}" class="card-img-top" alt="Inverted Grayscale Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Inverted Grayscale Image</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="{{ url_for('static', filename='processed/blurred.jpg') }}" class="card-img-top" alt="Blurred Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Blurred Image</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mb-4">
+                <div class="card">
+                    <img src="{{ url_for('static', filename='processed/pencil_sketch.jpg') }}" class="card-img-top" alt="Pencil Sketch Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Pencil Sketch Image</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="{{ url_for('home') }}" class="btn btn-secondary">Upload Another Image</a>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
