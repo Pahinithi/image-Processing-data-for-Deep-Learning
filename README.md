@@ -43,7 +43,7 @@ project/
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/image-processing-app.git
+   git clone https://github.com/Pahinithi/image-Processing-data-for-Deep-Learning
    cd image-processing-app
    ```
 
